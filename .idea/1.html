@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
@@ -9,58 +10,124 @@
 </head>
 <body>
 <header>
-  <h1>Welcome to <strong>Monochrome Maven</strong> Clothing Shop</h1>
-  <nav>
-    <a href="#tshirts">T-Shirts</a>
-    <a href="#hoodies">Hoodies</a>
-    <a href="#sneakers">Sneakers</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Monochrome Maven Clothing Shop</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="t-shirts.html">T-Shirts</a></li>
+        <li class="nav-item"><a class="nav-link" href="hoodies.html">Hoodies</a></li>
+        <li class="nav-item"><a class="nav-link" href="sneakers.html">Sneakers</a></li>
+      </ul>
+    </div>
   </nav>
 </header>
 
 <section id="tshirts">
-  <h2>T-Shirts</h2>
-  <div class="product">
-    <img src="https://res.cloudinary.com/rmwdam/image/upload/b_rgb:fffdf5,c_pad,dpr_2.0,f_auto,h_500,q_auto,w_500/c_pad,h_500,w_500/v1/products/images_png/KD210JE02/KD210JE8W01_Parson-T-Shirts_6?pgw=1" alt="T-Shirt 1">
-    <p>Black Magic Tee: Embrace the dark arts in this sleek black tee that conjures style effortlessly</p>
-    <button>Add to Cart</button>
-  </div>
-  <div class="product">
-    <img src="https://www.ganni.com/dw/image/v2/AAWT_PRD/on/demandware.static/-/Sites-ganni-master-catalogue/default/dwd29e4e9d/images/images/packshots/T3561-151-2.jpg?sh=1200" alt="T-Shirt 2">
-    <p>White Whisper Tee: Let your style speak volumes with this pristine white tee - a whisper of elegance</p>
-    <button>Add to Cart</button>
+  <div class="container">
+    <h2 class="text-center">T-Shirts</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img src="https://res.cloudinary.com/rmwdam/image/upload/b_rgb:fffdf5,c_pad,dpr_2.0,f_auto,h_500,q_auto,w_500/c_pad,h_500,w_500/v1/products/images_png/KD210JE02/KD210JE8W01_Parson-T-Shirts_6?pgw=1" alt="T-Shirt 1" class="card-img-top">
+          <div class="card-body">
+           <div class="alert alert-primary" role="alert">
+            Black Magic Tee:Embrace the dark arts in this sleek black tee that conjures style effortlessly <a href="#" class="alert-link"></a>.
+          </div>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <img src="https://www.ganni.com/dw/image/v2/AAWT_PRD/on/demandware.static/-/Sites-ganni-master-catalogue/default/dwd29e4e9d/images/images/packshots/T3561-151-2.jpg?sh=1200" alt="T-Shirt 2" class="card-img-top">
+          <div class="card-body">
+
+            <div class="alert alert-primary" role="alert">
+              White Whisper Tee: Let your style speak volumes with this pristine white tee - a whisper of elegance <a href="#" class="alert-link"></a>.
+            </div>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
 <section id="hoodies">
-  <h2>Hoodies</h2>
-  <div class="product">
-    <img src="https://production-dam-media.arco.co.uk/cdn/1030000/images/I_1030000_COf_ProdMedium_414978_1.jpg" alt="Hoodie 1">
-    <p>Black Panther Hoodie: Unleash your inner strength with this bold black hoodie - fierce and fearless</p>
-    <button>Add to Cart</button>
-  </div>
-  <div class="product">
-    <img src="https://www.independenttradingco.com/cdn/shop/products/IND5000PC-WHT_2048x.jpg?v=1640025923" alt="Hoodie 2">
-    <p>White Blizzard Hoodie: Brave the storm of style with this cool white hoodie - a flurry of fashion</p>
-    <button>Add to Cart</button>
+  <div class="container">
+    <h2 class="text-center">Hoodies</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img src="https://production-dam-media.arco.co.uk/cdn/1030000/images/I_1030000_COf_ProdMedium_414978_1.jpg" alt="Hoodie 1" class="card-img-top">
+          <div class="card-body">
+            <div class="alert alert-primary" role="alert">
+            Black Panther Hoodie: Unleash your inner strength with this bold black hoodie - fierce and fearless <a href="#" class="alert-link"></a>.
+          </div>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <img src="https://www.independenttradingco.com/cdn/shop/products/IND5000PC-WHT_2048x.jpg?v=1640025923" alt="Hoodie 2" class="card-img-top">
+          <div class="card-body">
+             <div class="alert alert-primary" role="alert">
+            BWhite Blizzard Hoodie: Brave the storm of style with this cool white hoodie - a flurry of fashion <a href="#" class="alert-link"></a>.
+          </div>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
+
 <section id="sneakers">
-  <h2>Sneakers</h2>
-  <div class="product">
-    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b1efa473-d262-4800-aff5-349031cb7628/air-jordan-1-low-older-shoes-cDRqmH.png" alt="Sneaker 1">
-    <p>Black Stealth Sneakers: Stride with stealth in these black sneakers - a fusion of comfort and mystery</p>
-    <button>Add to Cart</button>
-  </div>
-  <div class="product">
-    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e6da41fa-1be4-4ce5-b89c-22be4f1f02d4/air-force-1-07-mens-shoes-jBrhbr.png" alt="Sneaker 2">
-    <p>White Lightning Sneakers: Feel the lightning in every step with these white sneakers - a flash of freshnes.</p>
-    <button>Add to Cart</button>
+  <div class="container">
+    <h2 class="text-center">Sneakers</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b1efa473-d262-4800-aff5-349031cb7628/air-jordan-1-low-older-shoes-cDRqmH.png" alt="Sneaker 1" class="card-img-top">
+          <div class="card-body">
+
+            <div class="alert alert-success" role="alert">
+              Black Stealth Sneakers: Stride with stealth in these black sneakers - a fusion of comfort and mystery <a href="#" class="alert-link">an example link</a>.
+            </div>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e6da41fa-1be4-4ce5-b89c-22be4f1f02d4/air-force-1-07-mens-shoes-jBrhbr.png" alt="Sneaker 2" class="card-img-top">
+          <div class="card-body">
+
+            <div class="alert alert-success" role="alert">
+              White Lightning Sneakers: Feel the lightning in every step with these white sneakers - a flash of freshness. <a href="#" class="alert-link">an example link</a>.
+            </div>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
+
 
 <footer>
   <p>&copy; 2023 Monochrome Maven Clothing Shop.</p>
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
 </html>
